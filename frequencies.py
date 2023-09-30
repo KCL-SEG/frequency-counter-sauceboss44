@@ -2,6 +2,5 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def frequencies(items):
-    frequencies = {}
-    # Your code goes here
+    frequencies = {i:items.count(i) for i in items}
     return frequencies
